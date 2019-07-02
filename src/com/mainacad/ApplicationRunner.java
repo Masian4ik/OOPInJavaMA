@@ -23,25 +23,24 @@ public class ApplicationRunner {
 
         System.out.println(" Square with side " + square.getSide() + " has area " + square.getArea());
 
-        Triangle triangle = new Triangle( 12, 15 );
+        Triangle triangle = new Triangle(12, 15);
         AbstractShape triangleNew = new Triangle();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
