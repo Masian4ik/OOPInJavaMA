@@ -21,22 +21,28 @@ public class ApplicationRunner {
         if (circle.getArea() > square.getArea()) {
             maxShape = circle;
         }
-        else if (circle.getArea() < square.getArea()){
+        else{
             maxShape = square;
         }
 
-        else {
-            maxShape = square;
-        }
-
-        if (maxShape.getArea() > triangle.getArea()) {
+        if (maxShape.getArea() < triangle.getArea()) {
             maxShape = triangle;
+        }
+        if (maxShape.getArea() < quadrilateral.getArea()){
+            maxShape = quadrilateral;
 
         }
-        System.out.println("Max shape has area " + maxShape.getArea());
 
+        System.out.println("Max shape has area " + maxShape.getArea());
     }
 }
+
+
+
+
+
+
+
 
 
 
