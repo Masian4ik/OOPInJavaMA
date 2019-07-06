@@ -1,6 +1,6 @@
 package com.mainacad.model;
 
-public class Circle extends AbstractShape{
+public class Circle extends AbstractShape {
 
 
     private double radius;

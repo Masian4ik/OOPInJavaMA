@@ -28,13 +28,17 @@ public class Triangle extends AbstractShape {
 
     }
 
+    public Triangle() {
+    }
+
     public Triangle(double base, double heigth) {
         this.base = base;
         this.height = height;
+
+
     }
 
-    public Triangle() {
-    }
+
 }
 
 
